@@ -1,63 +1,259 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Doggus</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doggus | Medagliette artigianali personalizzate</title>
+  <meta name="description" content="Doggus è una vetrina artigianale di medagliette personalizzate per cani, realizzate a mano su richiesta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="page-bg">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Doggus home">
+          <img src="assets/logo.png" alt="Doggus" class="logo">
+        </a>
+        <nav class="site-nav" aria-label="Navigazione principale">
+          <a href="#fantasie">Fantasie</a>
+          <a href="#come-funziona">Come funziona</a>
+          <a href="#contatti">Contatti</a>
+        </nav>
+      </div>
+    </header>
 
-<header class="header">
-<img src="assets/logo.png" class="logo">
-</header>
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Vetrina artigianale</span>
+            <h1>Medagliette artigianali personalizzate per cani</h1>
+            <p class="hero-text">
+              Realizzo medagliette uniche, create a mano su richiesta, pensate per raccontare qualcosa di speciale.
+              Qui trovi alcune fantasie da cui partire per immaginare una creazione personalizzata.
+            </p>
+            <div class="hero-actions">
+              <a href="#contatti" class="btn btn-primary">Scrivimi</a>
+              <a href="#fantasie" class="btn btn-secondary">Guarda le fantasie</a>
+            </div>
+          </div>
 
-<section class="hero">
-<h1>Medagliette artigianali personalizzate per cani</h1>
-<p>Realizzo medagliette uniche, create a mano su richiesta.</p>
-<a href="#contatti" class="btn">Scrivimi</a>
-</section>
+          <div class="hero-panel reveal delay-1">
+            <div class="hero-card main-panel">
+              <span class="hero-badge">Fatto a mano</span>
+              <h2>Uno stile che racconta qualcosa</h2>
+              <p>
+                Ogni fantasia è un punto di partenza: da lì possiamo creare insieme una medaglietta che rispecchi davvero il tuo cane,
+                il tuo gusto e le tue esigenze.
+              </p>
+            </div>
 
-<section class="fantasie">
-<h2>Fantasie e stili</h2>
-<p>Questi sono esempi di fantasie. Ogni medaglietta è personalizzata.</p>
+            <div class="mini-panels">
+              <div class="hero-card soft-card mint">
+                <small>Materiali</small>
+                <strong>Ottone o alluminio</strong>
+                <p>Scelti insieme in base a stile, utilizzo e abitudini del cane.</p>
+              </div>
 
-<div class="grid">
-<div class="card">Montagna</div>
-<div class="card">Floreale</div>
-<div class="card">Mare</div>
-<div class="card">Cosmo</div>
-<div class="card">Sweet</div>
-<div class="card">Minimal</div>
-</div>
-</section>
+              <div class="hero-card soft-card blush">
+                <small>Dettagli</small>
+                <strong>Forma e incisione</strong>
+                <p>Ogni medaglietta viene personalizzata a partire dall’idea iniziale.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section class="steps">
-<h2>Come funziona</h2>
+      <section class="section intro-strip reveal">
+        <div class="container narrow center">
+          <p class="intro-kicker">Uno spazio semplice, senza acquisto automatico</p>
+          <h2>Qui si parte da un’idea, non da un carrello</h2>
+          <p class="section-copy">
+            Questo sito è una vetrina: raccoglie ispirazioni, atmosfere e possibilità. Se una fantasia ti piace,
+            oppure vuoi partire da una tua idea, puoi scrivermi e raccontarmela.
+          </p>
+        </div>
+      </section>
 
-<div class="step">Guarda le fantasie</div>
-<div class="step">Scrivimi</div>
-<div class="step">Creiamo la medaglietta perfetta per il tuo cane</div>
+      <section id="fantasie" class="section">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="eyebrow">Fantasie</span>
+            <h2>Alcune fantasie da cui lasciarsi ispirare</h2>
+            <p class="section-copy max-copy">
+              Ogni box ti porta in una pagina dedicata, pensata come raccolta di esempi.
+              Quando vorrai, potrai sostituire i segnaposto con le tue foto definitive.
+            </p>
+          </div>
 
-</section>
+          <div class="fantasy-grid">
+            <a href="themes/montagna.html" class="fantasy-card tone-green reveal">
+              <h3>Montagna</h3>
+              <p>Un’atmosfera naturale, essenziale e materica.</p>
+              <span class="open-pill">Apri la raccolta</span>
+            </a>
 
-<section id="contatti">
-<h2>Scrivimi</h2>
-<p>Puoi indicarmi una fantasia che ti piace, una forma, il metallo oppure un’ispirazione generale.</p>
+            <a href="themes/floreale.html" class="fantasy-card tone-fuchsia reveal delay-1">
+              <h3>Floreale</h3>
+              <p>Una fantasia delicata, decorativa e piena di piccoli dettagli.</p>
+              <span class="open-pill">Apri la raccolta</span>
+            </a>
 
-<p>Email: doggus.medagliette@gmail.com</p>
-<p>WhatsApp: +39 327 0911495</p>
+            <a href="themes/mare.html" class="fantasy-card tone-blue reveal delay-2">
+              <h3>Mare</h3>
+              <p>Una raccolta luminosa, fresca e leggera.</p>
+              <span class="open-pill">Apri la raccolta</span>
+            </a>
 
-<form>
-<input placeholder="Nome e cognome">
-<input placeholder="Email">
-<input placeholder="Telefono / WhatsApp">
-<textarea placeholder="Messaggio"></textarea>
-<button>Invia</button>
-</form>
-</section>
+            <a href="themes/cosmo.html" class="fantasy-card tone-sky reveal">
+              <h3>Cosmo</h3>
+              <p>Un immaginario più creativo, sognante e grafico.</p>
+              <span class="open-pill">Apri la raccolta</span>
+            </a>
 
+            <a href="themes/sweet.html" class="fantasy-card tone-pink reveal delay-1">
+              <h3>Sweet</h3>
+              <p>Uno stile dolce, morbido e giocoso.</p>
+              <span class="open-pill">Apri la raccolta</span>
+            </a>
+
+            <a href="themes/minimal.html" class="fantasy-card tone-lilac reveal delay-2">
+              <h3>Minimal</h3>
+              <p>Linee più pulite ed essenziali, con carattere discreto.</p>
+              <span class="open-pill">Apri la raccolta</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="come-funziona" class="section section-soft">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="eyebrow">Come funziona</span>
+            <h2>Un contatto diretto, semplice e personalizzato</h2>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card reveal">
+              <div class="step-num">01</div>
+              <h3>Guarda le fantasie</h3>
+              <p>Scegli la tua fantasia preferita oppure il tema da cui partire.</p>
+            </article>
+
+            <article class="step-card reveal delay-1">
+              <div class="step-num">02</div>
+              <h3>Scrivimi la tua idea</h3>
+              <p>Puoi raccontarmi liberamente ciò che immagini, anche partendo da un esempio.</p>
+            </article>
+
+            <article class="step-card reveal delay-2">
+              <div class="step-num">03</div>
+              <h3>La personalizziamo insieme</h3>
+              <p>Creiamo la medaglietta più adatta al tuo cane anche in base alla taglia e alle tue esigenze: per esempio, se ama stare in acqua, possiamo orientarci sull’alluminio invece che sull’ottone.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contatti" class="section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="eyebrow">Contatti</span>
+            <h2>Scrivimi la tua idea</h2>
+            <p class="section-copy">
+              Puoi indicarmi una fantasia che ti piace, una forma, il metallo oppure un’ispirazione generale e la personalizzeremo insieme.
+              Il messaggio è libero: non è un ordine automatico, ma un primo contatto per capire insieme cosa fare.
+            </p>
+
+            <div class="contact-info">
+              <div class="contact-chip">
+                <small>Email</small>
+                <strong><a href="mailto:doggus.medagliette@gmail.com">doggus.medagliette@gmail.com</a></strong>
+              </div>
+              <div class="contact-chip">
+                <small>WhatsApp</small>
+                <strong><a href="https://wa.me/393270911495" target="_blank" rel="noreferrer">+39 327 0911495</a></strong>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal delay-1" name="contatti-doggus" method="POST" data-netlify="true" action="thank-you.html">
+            <input type="hidden" name="form-name" value="contatti-doggus">
+            <label>
+              <span>Nome e cognome</span>
+              <input type="text" name="nome" placeholder="Il tuo nome e cognome" required>
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="La tua email" required>
+            </label>
+
+            <label>
+              <span>Telefono / WhatsApp</span>
+              <input type="text" name="telefono" placeholder="Facoltativo">
+            </label>
+
+            <label>
+              <span>Messaggio</span>
+              <textarea name="messaggio" rows="6" placeholder="Raccontami la fantasia che ti piace o l’idea che hai in mente"></textarea>
+            </label>
+
+            <label class="checkline">
+              <input type="checkbox" required>
+              <span>Ho letto l’<a href="privacy.html">Informativa sulla privacy</a>.</span>
+            </label>
+
+            <button type="submit" class="btn btn-primary btn-full">Invia</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="Doggus" class="footer-logo">
+          <p>© 2026, Doggus | Medagliette Artigianali di Claudia Salsini - P.iva 13427800969</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="privacy.html">Informativa sulla privacy</a>
+          <a href="rimborsi.html">Informativa sui rimborsi</a>
+          <a href="termini.html">Termini e condizioni del servizio</a>
+          <a href="recapiti.html">Recapiti</a>
+          <a href="spedizioni.html">Informativa sulle spedizioni</a>
+          <a href="informativa-legale.html">Informativa legale</a>
+          <a href="cookies.html">Preferenze cookie</a>
+        </div>
+
+        <div class="socials">
+          <a class="social ig" href="https://www.instagram.com/medagliette.doggus/" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="social fb" href="#" aria-disabled="true">Facebook</a>
+          <a class="social tk" href="#" aria-disabled="true">TikTok</a>
+          <a class="social pi" href="#" aria-disabled="true">Pinterest</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie-banner" id="cookieBanner">
+      <div class="cookie-content">
+        <div>
+          <strong>Preferenze cookie</strong>
+          <p>Questo sito utilizza solo elementi tecnici essenziali. Puoi gestire le preferenze da qui.</p>
+        </div>
+        <div class="cookie-actions">
+          <button class="btn btn-secondary btn-small" type="button" id="cookieReject">Rifiuta</button>
+          <button class="btn btn-secondary btn-small" type="button" id="cookiePrefs">Gestisci</button>
+          <button class="btn btn-primary btn-small" type="button" id="cookieAccept">Accetta</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
