@@ -1,36 +1,25 @@
-# Doggus Website
+Doggus site v2
 
-This project is a static website developed for Doggus, a handmade brand specialized in personalized pet tags.
+Contenuto:
+- index.html
+- thank-you.html
+- style.css
+- script.js
+- cartella assets/
+- cartella themes/
 
-The goal was to create a clean, modern, and user-friendly interface without using a traditional e-commerce system. Instead, the website allows users to explore product styles and submit custom requests through a contact form.
+Pubblicazione su Netlify:
+1. vai su app.netlify.com
+2. trascina l'intera cartella doggus_site_v2
+3. apri il link .netlify.app generato
+4. se vuoi usare il dominio Shopify, aggiungilo in Netlify > Domain management e poi aggiorna i DNS da Shopify
 
-## Features
+Form:
+Il form è impostato per Netlify Forms.
+Per attivarlo davvero:
+- pubblica il sito su Netlify
+- invia una prima prova dal sito online
 
-- Responsive design (mobile-first approach)
-- Custom product presentation (themes, materials, shapes)
-- Contact form for order requests (no checkout system)
-- Clean and minimal UI inspired by modern e-commerce layouts
-- Optimized for fast deployment with Netlify
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Netlify (deployment)
-
-## Project Structure
-
-- `/index.html` → Homepage
-- `/themes` → Pages for each style/theme
-- `/assets` → Images and logo
-- `/style.css` → Main styling
-- `/script.js` → Interactions
-
-## Notes
-
-This project was intentionally built without a full e-commerce backend to simplify the ordering process and enable direct communication with customers via email or WhatsApp.
-
-## Deployment
-
-Hosted on Netlify with optional custom domain integration.
+Immagini:
+Le immagini nelle pagine tema sono già predisposte come esempi ricavati dagli screenshot.
+Quando avrai le foto finali, sostituisci i file nella cartella assets mantenendo gli stessi nomi.
